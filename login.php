@@ -1,5 +1,5 @@
 <?php session_start();
-include('funcs/myfunctions.php');
+include('funcs/userfuncs.php');
 if (isset($_SESSION['auth'])) {
     redirect("index.php", "You are already logged in");
 }

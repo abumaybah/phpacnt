@@ -17,6 +17,10 @@
             margin-left: -250px;
             min-width: 500px;
         }
+
+        h2 {
+            margin-top: 60px;
+        }
     </style>
 </head>
 

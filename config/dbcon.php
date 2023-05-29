@@ -11,5 +11,5 @@ $con = mysqli_connect($host, $username, $password, $database);
 if (!$con) {
     die('Connection failed: ' . mysqli_Connect_error());
 } else {
-    echo 'Connected successfulyy';
+    // echo 'Connected successfully';
 }

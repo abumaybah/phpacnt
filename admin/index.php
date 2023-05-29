@@ -7,7 +7,7 @@ include('../middleware/adminMiddleware.php');
 ?>
 <div class="container-fluid py-4">
     <div class="row min-vh-80 h-100">
-        <div class="col-12">
+        <div class="col-md-12">
             <div class="container-fluid py-4">
                 <div class="row">
                     <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -87,4 +87,5 @@ include('../middleware/adminMiddleware.php');
             </div>
         </div>
     </div>
-    <?php include('includes/footer.php') ?>
+</div>
+<?php include('includes/footer.php') ?>
